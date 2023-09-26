@@ -1,0 +1,41 @@
+.MainContent {
+    height: 100%;
+    margin-left: 272px;
+    padding: 0;
+}   
+
+.heading {
+height: auto;
+display: flex;
+padding: 0px 32px;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+.content{
+height: auto;
+display: flex;
+flex-direction: row;
+padding: 0px 32px;
+align-items: left;
+justify-content: space-between;
+}
+
+.sendButton {
+  font-size: 1rem;
+  font-family: inherit;
+  margin-left: 1.5rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-primary); 
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.sendButton:hover {
+  background-color: var(--color-primary-variant); 
+}

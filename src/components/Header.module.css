@@ -1,0 +1,54 @@
+.header {
+  height: 48px;
+  margin-left: 272px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  background-color: var(--bg-background-2); 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  padding: 0;
+  margin-right: 1.5rem;
+}
+
+.menu li a {
+  padding: 0;
+  text-decoration: none;
+  color: var(--color-darktext); 
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.menu li a:hover {
+  color: var(--color-primary);
+}
+
+
+
+.authButtons button {
+  font-size: 1rem;
+  font-family: inherit;
+  margin-left: 1.5rem;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-primary); 
+  color: var(--color-text);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  
+}
+
+.authButtons button:hover {
+  background-color: var(--color-primary-variant); 
+}

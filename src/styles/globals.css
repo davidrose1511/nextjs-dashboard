@@ -1,0 +1,47 @@
+/* globals.css */
+
+body {
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  line-height: 1.6; 
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Color palette */
+  :root {
+    /* Background Colors */
+    --bg-background: #121212;
+    --bg-background-2: #ffffff;
+  
+    /* Surface Colors */
+    --bg-surface-1: #212121;
+    --bg-surface-2: #363535;
+  
+    /* Primary Colors */
+    --color-primary: #23B5D3;
+    --color-primary-variant: #127AB2;
+  
+    /* Secondary Colors */
+    --color-secondary: #003F91;
+    --color-secondary-variant: #17509B;
+    
+    /* Error and Alerts */
+    --color-error: #FF1744;
+  
+    /* Typography */
+    --color-text: #FFFFFF;
+    --color-subtext: #B0BEC5;
+    --color-darktext: #121212;
+  }
+  
+
+
+
